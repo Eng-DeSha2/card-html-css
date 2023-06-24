@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #ffd89b;  
+background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  
+background: linear-gradient(to right, #19547b, #ffd89b); 
+width: 100%;
+height: 100vh;
+}
+.container{
+    background-color: #f5f5f5;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border: 5px solid #f0f0f0;
+    border-radius: 15px;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.nav::after{
+    content: "MosTafa Mahmoud Aita";
+    position: absolute;
+    top: 100px;
+    left: 145px;
+    font-size: 20px;
+   
+}
+.nav .link-left a , .link-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav .link-left {
+padding: 5px;
+ background-color: #04b1d7;
+border-radius: 5px;
+border: 1px solid #04b1d7;
+margin: 10px 15px;
+transition: 1s;
+
+}
+.nav .link-left:hover{
+    transform: translate(0px, -10px);
+}
+.nav .link-right{
+    padding: 5px;
+    background-color:  rgba(9, 9, 99, 0.967);
+   border-radius: 5px;
+   border: 1px solid rgba(9, 9, 99, 0.967);
+   margin: 10px 15px;
+   transition: 1s;
+}
+.nav .link-right:hover{
+    transform: translate(0px, -10px);
+}
+.nav .img img{
+    width: 150px;
+    position: absolute;
+    bottom: 410px;
+    right: 190px;
+    border-radius: 50%;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+.nav .img img:hover{
+    transform: translate(0px, -10px);
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(146, 146, 146);
+    font-size: 15px;
+
+}
+.text p{
+    color: rgb(30, 29, 29);
+}
+.name{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(1, 6, 52);
+    font-family: 'Times New Roman', Times, serif;
+}
+.name span{
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name2{
+    text-align: center;
+   margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(1, 6, 52);
+    font-family: 'Times New Roman', Times, serif;
+}
+.name3{
+    text-align: center;
+   margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(1, 6, 52);
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    padding-bottom: 10px;
+}
+.name4{
+    text-align: center;
+   margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(1, 6, 52);
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.contact a{
+ padding-left: 10px;
+}
+.contact .a{
+    color: rgb(2, 2, 92);
+}
+.contact .b{
+    color: rgb(156, 49, 49);
+}
+.contact .c{
+    color: green;
+}
+.mostafa{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 250px;
+    display: block;
+}
+.mostafa span{
+color: #ffd89b;
+}
+.mostafa .m{
+    color: #19547b;
+}
+/* Small */
+@media (max-width: 750px) {
+    .mostafa {
+   display: none;
+    }
+  }
